@@ -1,0 +1,679 @@
+@import url("reset.css");
+.w {
+  width: 962px;
+  margin: 0 auto;
+}
+.header {
+  width: 962px;
+  margin: 0 auto;
+  height: 28px;
+  background-color: #f3f3f3;
+  border: 1px #dfe3ec solid;
+  line-height: 28px;
+}
+.header form {
+  float: left;
+  width: 575px;
+  height: 28px;
+  background: null;
+}
+.header form select {
+  float: left;
+  margin-top: 3.5px;
+  border: 1px #e2e3ea solid;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.header form .admin {
+  float: left;
+}
+.header form .admin .text {
+  width: 89px;
+  height: 16px;
+  background: null;
+  border: 1px #999999 solid;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.header form button {
+  float: left;
+  display: block;
+  width: 44px;
+  height: 18px;
+  background: null;
+  border: 1px #9a9a9c solid;
+  margin-top: 5px;
+}
+.header form p {
+  float: left;
+  margin-left: 10px;
+}
+.header form p i {
+  background: url(../images/xx_03.png) no-repeat left center;
+  margin-left: 6px;
+  padding-left: 10px;
+}
+.header em {
+  float: right;
+}
+.header em a {
+  background: url(../images/home_03.png) no-repeat left center;
+  padding-left: 22px;
+  margin-right: 16px;
+}
+.header em i a {
+  background: url(../images/ipon_03.png) no-repeat left center;
+  margin-right: 28px;
+}
+.logo {
+  width: 962px;
+  margin: 0 auto;
+  height: 80px;
+  margin-top: 12px;
+}
+.logo .log {
+  float: left;
+  height: 80px;
+}
+.logo .pers {
+  float: right;
+  height: 80px;
+}
+.nav {
+  width: 962px;
+  margin: 0 auto;
+  height: 35px;
+  background-color: #51a1ea;
+}
+.nav ul {
+  float: left;
+  margin-left: 2px;
+  margin-top: 2px;
+  width: 953px;
+  height: 30px;
+  background: null;
+  border: 1px #89beef solid;
+  background: url(../images/HH_03.png);
+  line-height: 30px;
+}
+.nav ul li {
+  float: left;
+}
+.nav ul li a {
+  background: url(../images/qqqdss_03.png) no-repeat left center;
+  margin-left: 12px;
+  padding-left: 11px;
+  color: #ffffff;
+}
+.nav ul li:first-child a {
+  background: none;
+}
+.lol {
+  width: 962px;
+  margin: 0 auto;
+  height: 39px;
+  margin-top: 9px;
+}
+.lol dt {
+  float: left;
+}
+.lol dt img {
+  height: 35px;
+}
+.lol .one {
+  float: left;
+  width: 113px;
+  height: 35px;
+  background: null;
+  border-right: 1px #a8a8a8 dashed;
+  margin-right: 8px ;
+}
+.lol .one dd {
+  float: left;
+}
+.lol .one dd a {
+  margin-left: 10px;
+}
+.lol .two {
+  float: left;
+  width: 93px;
+  height: 35px;
+  background: null;
+  border-right: 1px #a8a8a8 dashed;
+  margin-right: 5px;
+}
+.lol .two dd {
+  float: left;
+  width: 48px;
+  text-align: center;
+}
+.lol .thov {
+  float: left;
+  width: 128px;
+  height: 35px;
+  background: null;
+  margin-right: 9px;
+  border-right: 1px #a8a8a8 dashed;
+}
+.lol .thov dd {
+  float: left;
+  width: 84px;
+  margin-left: 3px;
+}
+.lol .thov dd i {
+  margin-left: 10px;
+}
+.lol .ipon {
+  float: left;
+  width: 59px;
+  height: 35px;
+  background: null;
+  border-right: 1px #a8a8a8 dashed;
+  margin-right: 10px;
+}
+.lol .ipon dd {
+  float: left;
+  margin-left: 9px;
+}
+.lol .dr {
+  float: left;
+  width: 160px;
+  height: 35px;
+  background: null;
+  margin-right: 6px;
+  border-right: 1px #a8a8a8 dashed;
+}
+.lol .dr dd {
+  float: left;
+  margin-left: 2px;
+}
+.lol .dr dd em {
+  margin-left: 10px;
+}
+.lol .dr dd em a {
+  margin-right: 5px;
+}
+.lol .w91 {
+  float: left;
+  width: 91px;
+  height: 35px;
+  background: null;
+  border-right: 1px #a8a8a8 dashed;
+  margin-right: 10px;
+}
+.lol .w70 {
+  float: left;
+  width: 70px;
+  height: 35px;
+  background: null;
+  margin-right: 15px;
+}
+.lol .w70 dd {
+  float: left;
+  width: 36px;
+  text-align: center;
+}
+.lol .log {
+  height: 39px;
+}
+.site {
+  width: 962px;
+  margin: 0 auto;
+  height: 30px;
+  border: 1px #e3e3e3 solid;
+  margin-top: 8px;
+  border-left: 0;
+  border-right: 0;
+  line-height: 30px;
+}
+.site span {
+  float: left;
+  margin-left: 7px;
+  font-weight: bold;
+}
+.site ul {
+  float: left;
+  width: 551px;
+  margin-left: 7px;
+}
+.site ul li {
+  float: left;
+  margin-left: 12px;
+}
+.site select {
+  float: left;
+  width: 110px;
+  height: 16px;
+  background: null;
+  border: 1px #c5c5c5 solid;
+  margin-left: 38px;
+  margin-top: 6px;
+}
+.site p {
+  float: left;
+  background: url(../images/hx_03.png) no-repeat left center;
+  margin-left: 13px;
+}
+.site p a {
+  margin-left: 8px;
+  color: #323232;
+}
+.sper {
+  width: 962px;
+  margin: 0 auto;
+  height: 172px;
+}
+.sper .top {
+  height: 80px;
+}
+.sper .sum {
+  height: 80px;
+  margin-top: 10px;
+}
+.main {
+  width: 962px;
+  margin: 0 auto;
+  height: 704px;
+  margin-top: 5px;
+}
+.main .left {
+  width: 308px;
+  height: 700px;
+  background: null;
+  float: left;
+}
+.main .left .ont {
+  float: left;
+  width: 307px;
+  height: 236px;
+  background: null;
+  border: 1px #dcdcdc solid;
+}
+.main .left .ont .ll {
+  margin-top: 8px;
+  margin-left: 7px;
+}
+.main .left .ont .ll img {
+  height: 184px;
+}
+.main .left .ont span {
+  margin-left: 7px;
+  font-weight: bold;
+}
+.main .left .requ {
+  float: left;
+  width: 307px;
+  height: 27px;
+  background: null;
+  border-bottom: 1px #dcdcdc solid;
+  border-left: 1px #DCDCDC solid;
+  border-right: 1px #DCDCDC solid;
+  line-height: 27px;
+}
+.main .left .requ h3 {
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 22px;
+}
+.main .left .requ p {
+  float: left;
+  margin-left: 28px;
+  color: #ff0000;
+}
+.main .left ul {
+  width: 307px;
+  height: 114px;
+  background: null;
+  float: left;
+  line-height: 28px;
+  border-left: 1px #DCDCDC solid;
+  border-right: 1px #DCDCDC solid;
+  border-bottom: 1px #dcdcdc solid;
+}
+.main .left ul li {
+  background: url(../images/d_07.png) no-repeat left center;
+  margin-left: 12px;
+  padding-left: 8px;
+}
+.main .left .hh {
+  float: left;
+  margin-top: 5px;
+  height: 80px;
+  width: 308px;
+}
+.main .left .hh img {
+  height: 80px;
+}
+.main .left .fot {
+  float: left;
+  width: 307px;
+  height: 230px;
+  background: null;
+  border: 1px #DCDCDC solid;
+  margin-top: 7px;
+}
+.main .left .fot .top {
+  width: 308px;
+  height: 28px;
+  background: #fefefe;
+  border-bottom: 1px #dcdcdc solid;
+}
+.main .left .fot .top span {
+  float: left;
+  margin-left: 5px;
+  display: block;
+  width: 84px;
+  height: 26px;
+  background: #ffffff;
+  border: 1px #dcdcdc solid;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 2px;
+  border-bottom: 0;
+  position: absolute;
+}
+.main .left .fot em {
+  float: left;
+  width: 307px;
+  height: 30px;
+  background: null;
+}
+.main .left .fot em h2 {
+  font-size: 12px ;
+  color: #0b3b8d;
+  line-height: 30px;
+  margin-left: 21px;
+  font-weight: bold;
+}
+.main .left .fot dl {
+  float: left;
+  width: 270px;
+  height: 63px;
+  background: null;
+  margin-left: 21px;
+}
+.main .left .fot dl dt {
+  float: left;
+}
+.main .left .fot dl dd {
+  float: left;
+  margin-left: 5px;
+  width: 183px;
+  height: 64px;
+  background: null;
+  text-indent: 2em;
+  color: #676767;
+}
+.main .left .fot .outr {
+  border: 0;
+}
+.main .center {
+  float: right;
+  width: 638px;
+  height: 700px;
+  background: null;
+  margin-left: 10px;
+}
+.main .center .top {
+  float: left;
+  width: 638px;
+  height: 68px;
+  background: #edf4fa;
+}
+.main .center .top .fop {
+  float: left;
+  width: 392px;
+  height: 61px;
+  background: null;
+  margin-top: 4px;
+  margin-left: 25px;
+}
+.main .center .top .fop p {
+  float: left;
+}
+.main .center .top .fop p a {
+  margin-left: 34px;
+  color: #083d8b;
+}
+.main .center .top .fop .for {
+  float: left;
+  width: 390px;
+  height: 39px;
+  background: #eef4f2;
+  margin-top: 2px;
+  border: 1px #bdcfd6 solid;
+}
+.main .center .top .fop .for .text {
+  float: left;
+  width: 299px;
+  height: 25px;
+  background: null;
+  margin: 4px 0 0 4px;
+  border: 1px #bfbfbf solid;
+}
+.main .center .top .fop .for button {
+  margin-top: 4px;
+  width: 77px;
+  height: 25px;
+  background: #f9d55a;
+  border: 1px #d27d00 solid;
+  font-weight: bold;
+}
+.main .center .top .ront {
+  float: left;
+  width: 145px;
+  height: 38px;
+  background: null;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.main .center .top .ront a {
+  margin-left: 10px;
+}
+.main .center .top .rope {
+  float: right;
+  width: 26px;
+  height: 66px;
+  background: null;
+  border-radius: 3px 0 0 3px;
+}
+.main .center .leef {
+  float: left;
+  width: 390px;
+  height: 623px;
+  background: null;
+  margin-top: 10px;
+}
+.main .center .leef .l_to {
+  float: left;
+  width: 388px;
+  height: 378px;
+  background: null;
+  border: 1px #dcdcdc solid;
+}
+.main .center .leef .l_to p {
+  float: left;
+  width: 388px;
+  height: 32px;
+  background: #0000ff;
+  line-height: 32px;
+  margin-bottom: 5px;
+}
+.main .center .leef .l_to p span {
+  float: left;
+  margin-left: 19px;
+}
+.main .center .leef .l_to p i {
+  float: right;
+  padding-right: 16px;
+}
+.main .center .leef .l_to em {
+  float: left;
+  width: 364px;
+  height: 80px;
+  background: null;
+  margin-top: ;
+  margin-left: 12px;
+  border-bottom: 1px #dfdfdf dashed;
+}
+.main .center .leef .l_to em h3 {
+  font-size: 18px;
+  color: #cc0000;
+  font-weight: bold;
+  line-height: 38px;
+}
+.main .center .leef .l_to em b {
+  color: #676767;
+}
+.main .center .leef .l_to ul {
+  float: left;
+  width: 364px;
+  height: 155px;
+  background: null;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+.main .center .leef .l_to ul li {
+  line-height: 24px;
+  background: url(../images/d_07.png) no-repeat left center;
+  margin-left: 7px;
+  padding-left: 6px;
+}
+.main .center .leef .l_fo {
+  float: left;
+  width: 388px;
+  height: 231px;
+  background: null;
+  margin-top: 10px;
+  border: 1px #dcdbde solid;
+}
+.main .center .leef .l_fo span {
+  float: left;
+  width: 388px;
+  height: 29px;
+  background: #f8f8f8;
+  border-bottom: 1px #dcdbde solid;
+}
+.main .center .leef .l_fo span h4 {
+  margin-left: 29px;
+  line-height: 29px;
+}
+.main .center .leef .l_fo .l_pser {
+  float: left;
+  width: 350px;
+  height: 100px;
+  background: null;
+  margin-top: 14px;
+  margin-left: 19px;
+}
+.main .center .leef .l_fo ul {
+  float: left;
+  width: 162px;
+  height: 79px;
+  background: null;
+  margin-left: 19px;
+  line-height: 25px;
+}
+.main .center .leef .l_fo ul li {
+  background: url(../images/d_07.png) no-repeat left center;
+  padding-left: 7px;
+}
+.main .center .rig {
+  float: right;
+  margin-top: 10px;
+  width: 240px;
+  height: 623px;
+  background: null;
+}
+.main .center .rig .r_top {
+  float: left;
+  width: 238px;
+  height: 331px;
+  background: null;
+  border: 1px #c8d8e7 solid;
+}
+.main .center .rig .r_top span {
+  float: left;
+  width: 237px;
+  height: 25px;
+  background: #2986db;
+  border: 1px #2b7ec9c ssolid;
+  line-height: 25px;
+}
+.main .center .rig .r_top span h5 {
+  float: left;
+  color: #fffffd ;
+  font-weight: bold;
+  background: url(../images/ds_03.png) no-repeat left center;
+  margin-left: 13px;
+  padding-left: 21px;
+}
+.main .center .rig .r_top em {
+  float: left;
+  width: 214px;
+  height: 31px;
+  background: null;
+  border-bottom: 1px #b8b8ba dashed;
+  margin-left: 12px;
+  line-height: 31px;
+}
+.main .center .rig .r_top em b {
+  float: left;
+  width: 76px;
+  background: url(../images/zfds_03.png) no-repeat left center;
+  padding-left: 10px;
+}
+.main .center .rig .r_top em i {
+  float: left;
+  margin-left: 33px;
+  background: url(../images/zfds_03.png) no-repeat left center;
+  padding-left: 10px;
+}
+.main .center .rig .r_top p {
+  float: left;
+  margin-left: 12px;
+}
+.main .center .rig .r_foot {
+  float: left;
+  width: 238px;
+  height: 290px;
+  background: null;
+  border: 1px #c9d9e8 solid;
+}
+.main .center .rig .r_foot span {
+  float: left;
+  width: 237px;
+  height: 25px;
+  background: #e6f0f6;
+  border: 1px #2b7ec9c ssolid;
+  line-height: 25px;
+}
+.main .center .rig .r_foot span h5 {
+  float: left;
+  font-weight: bold;
+  background: url(../images/ds_03.png) no-repeat left center;
+  margin-left: 13px;
+  padding-left: 21px;
+}
+.main .center .rig .r_foot ul {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.main .center .rig .r_foot ul li {
+  line-height: 22px;
+}
+.main .center .rig .r_foot ul li i {
+  float: left;
+  display: block;
+  width: 17px;
+  height: 14px;
+  background: #fbdfb2;
+  border: 1px #c53d00 solid;
+  margin-right: 10px;
+  margin-top: 4px;
+  text-align: center;
+  line-height: 14px;
+  color: #c53d00;
+}
